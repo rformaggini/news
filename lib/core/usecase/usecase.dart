@@ -1,5 +1,5 @@
 abstract class UseCase<Type, Params> {
-  Future<Type> call(Params params);
+  Future<Type> call({Params params});
 }
 
 // Compare this snippet from lib/features/daily_news/domain/usecases/get_news_articles.dart:
